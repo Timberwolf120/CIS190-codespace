@@ -1,0 +1,37 @@
+mkdir data/aircraft/configurations/xq-67a
+mkdir data/aircraft/configurations/mq-1c
+mkdir data/aircraft/configurations/mq-9b
+mkdir data/aircraft/configurations/mq-20
+mkdir data/aircraft/configurations/mojave
+mkdir data/aircraft/configurations/mq-9
+cd data/aircraft/configurations/xq-67a
+touch n233wx.cfg index.cfg n901uv.cfg
+cd ..
+cd mq-1c
+touch n789ef.cfg index.cfg n101gh.cfg
+cd ..
+cd mq-9b
+touch index.cfg
+cd ..
+cd mq-20
+touch n234ij.cfg index.cfg n567kl.cfg
+cd ..
+cd mojave
+touch n456cd.cfg index.cfg n123ab.cfg
+cd ..
+cd mq-9
+touch n112op.cfg index.cfg n892mn.cfg
+cd ..
+touch n345qr.cfg
+cd ..
+touch n678st.cfg
+
+1. Answer: cd data/aircraft/configurations/mq-9
+2. Answer: cd wq-67
+3. Answer: sudo mv n345qr.cfg mq-1c
+4. Answer: sudo mv n678st.cfg mojave
+5. Answer: sudo cp /configurations/directory/*.cfg /data/aircraft/backup (where directory represents the directories within the configurations dir
+6. Answer: ls -i configuratons/mq-20
+7. Answer: sudo rmdir configurations/mq-9b (cannot delete a directory with files in it) 
+8. Answer: sudo mkdir locations
+9. Answer: 
