@@ -13,9 +13,9 @@
 7. Give the command to restart your suspended job. 
 	fg
 8. Run the command "ls ~/home" with superuser privileges. Give the command and your answer.
-	
+	su for superuser enabled, cant figure out the password so cant run the command
 9. Describe how to select a strong password.
-
+	must containt 6-8 characters, with one or more lower case letters,digits 0-9 or punctuation marks
 10. After creating your file to test and make sure your file is in the correct location run "less /workspaces/cis190_codespace/labs/cis190_lab2.txt" and the less paging utility should open your file. If you get an error then check to see where you went wrong in the naming or location of your file.
 
 
