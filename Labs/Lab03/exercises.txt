@@ -34,4 +34,15 @@ touch n678st.cfg
 6. Answer: ls -i configuratons/mq-20
 7. Answer: sudo rmdir configurations/mq-9b (cannot delete a directory with files in it) 
 8. Answer: sudo mkdir locations
-9. Answer: 
+9. Answer: sudo ln -s configurations/mq-1c xq-67a mq-1c locations
+10. Answer: cd configurations/mojave
+11. Answer: sudo cp mq-9/n112op.cfg /backup
+12. Answer: ls -l 
+13. Answer: sudo mv mq-9/n892mn.cfg mq-20
+14. Answer: sudo ln -s /configurations/mq-20/n567kl.cfg locations
+15. Answer: cd configurations/mq-1c
+16: Answer: sudo rm locations/xq-67a
+17. Answer: sudo touch configurations/mojave/n567kl.cfg
+18. Answer: sudo du ../ /configurations
+19. Answer: sudo mkdir mq-9/test, sudo rmdir mq-9/test
+20. Answer: sudo mv xq-67a/index.cfg xq-67a/main.cfg
