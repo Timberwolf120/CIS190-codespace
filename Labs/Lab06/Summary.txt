@@ -1,0 +1,2 @@
+Moved, extracted and viewed various files within the shell. Learned how to get a file from the web, move it to a different WD, extract it in said WD and how to count
+lines as well as limit a search to a specified perameter.
