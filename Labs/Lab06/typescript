@@ -24524,4 +24524,44 @@ bash: rgb:3b3b/3b3b/3b3b11: No such file or directory
 bash: rgb:f8f8/f8f: No such file or directory
 [0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ ls
 Summary.txt  [0m[01;31mconfigs.tgz[0m  typescript
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ ls -s
+total 3316
+   4 Summary.txt    16 [0m[01;31mconfigs.tgz[0m  3296 typescript
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ ls -l
+total 3316
+-rw-rw-rw- 1 codespace codespace     224 Jul 29 16:51 Summary.txt
+-rw-rw-rw- 1 codespace codespace   12435 Jul 22 20:08 [0m[01;31mconfigs.tgz[0m
+-rw-rw-rw- 1 codespace codespace 3370659 Jul 29 16:55 typescript
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ info
+bash: info: command not found
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ sysinfo
+bash: sysinfo: command not found
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ uname
+Linux
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ systemiunf[K[K[Knfo
+bash: systeminfo: command not found
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ w
+ 17:01:42 up  2:12,  0 users,  load average: 0.24, 0.21, 0.18
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ who
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ uptime
+ 17:01:49 up  2:12,  0 users,  load average: 0.22, 0.20, 0.18
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ w
+ 17:01:50 up  2:12,  0 users,  load average: 0.22, 0.20, 0.18
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ finger
+bash: finger: command not found
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ login
+login: Cannot possibly work without effective root
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ date
+Mon Jul 29 17:02:31 UTC 2024
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ help ls
+bash: help: no help topics match `ls'.  Try `help help' or `man -k ls' or `info ls'.
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ echo ls
+ls
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ who
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ id[K[Kuser
+bash: user: command not found
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ whoami
+codespace
 [0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Lab06 [0;36m([1;31mmain[0;36m) [0m$ 

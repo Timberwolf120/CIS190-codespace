@@ -1,0 +1,967 @@
+Script started on 2024-08-06 15:15:05+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="185" LINES="48"]
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ wget https://bo ss.vvc.edu/tonning/classes/cis190/resources/final_configs.tgz
+--2024-08-06 15:18:50--  https://boss.vvc.edu/tonning/classes/cis190/resources/final_configs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12435 (12K) [application/octet-stream]
+Saving to: ‘final_configs.tgz’
+
+final_configs.tgz      0%[                    ]       0  --.-KB/s               final_configs.tgz    100%[===================>]  12.14K  --.-KB/s    in 0.01s   
+
+2024-08-06 15:18:50 (1.04 MB/s) - ‘final_configs.tgz’ saved [12435/12435]
+
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ mkdir date[Ka/airc raft
+mkdir: cannot create directory ‘data/aircraft’: No such file or directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ mkr[Kdir date
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ rmdir date
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ mkdir data
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ cd data
+[0;32m@Timberwolf120 [0m➜ [1;34m.../CIS190-codespace/Labs/Final/data [0;36m([1;31mmain[0;36m) [0m$ mkdir aircraft
+[0;32m@Timberwolf120 [0m➜ [1;34m.../CIS190-codespace/Labs/Final/data [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ mv [K[K[Ktar -xvf config s.tgz
+tar: configs.tgz: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ tar[K[K[Kls
+[0m[34;42mdata[0m  [01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ tar -xvf fonal[K[K[K[Kinal_ configs.tgz
+configs/
+configs/n112op/
+configs/n112op/config_3.ini
+configs/n112op/config_5.ini
+configs/n112op/config_1.ini
+configs/n112op/config_2.ini
+configs/n112op/config_4.ini
+configs/n890mn/
+configs/n890mn/config_3.ini
+configs/n890mn/config_5.ini
+configs/n890mn/config_1.ini
+configs/n890mn/config_2.ini
+configs/n890mn/config_4.ini
+configs/n101gh/
+configs/n101gh/config_3.ini
+configs/n101gh/config_5.ini
+configs/n101gh/config_1.ini
+configs/n101gh/config_1a.ini
+configs/n101gh/config_2.ini
+configs/n101gh/config_4.ini
+configs/n678st/
+configs/n678st/config_3.ini
+configs/n678st/config_5.ini
+configs/n678st/config_1.ini
+configs/n678st/config_2.ini
+configs/n678st/config_4.ini
+configs/n567kl/
+configs/n567kl/config_3.ini
+configs/n567kl/config_5.ini
+configs/n567kl/config_1.ini
+configs/n567kl/config_2.ini
+configs/n567kl/config_4.ini
+configs/tailnumbers.txt
+configs/n789ef/
+configs/n789ef/config_3.ini
+configs/n789ef/config_5.ini
+configs/n789ef/config_1.ini
+configs/n789ef/config_2.ini
+configs/n789ef/config_4.ini
+configs/n456cd/
+configs/n456cd/config_3.ini
+configs/n456cd/config_5.ini
+configs/n456cd/config_1.ini
+configs/n456cd/config_2.ini
+configs/n456cd/config_4.ini
+configs/n123ab/
+configs/n123ab/config_3.ini
+configs/n123ab/config_5.ini
+configs/n123ab/config_1.ini
+configs/n123ab/config_2.ini
+configs/n123ab/config_4.ini
+configs/n234ij/
+configs/n234ij/config_3.ini
+configs/n234ij/config_5.ini
+configs/n234ij/config_1.ini
+configs/n234ij/config_2.ini
+configs/n234ij/config_4.ini
+configs/n223wx/
+configs/n223wx/config_3.ini
+configs/n223wx/config_5.ini
+configs/n223wx/config_1.ini
+configs/n223wx/config_2.ini
+configs/n223wx/config_4.ini
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [34;42mdata[0m  [01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ mv configs data /aircraft
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42mdata[0m  [01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ cat [K[K[K[Kcd data
+[0;32m@Timberwolf120 [0m➜ [1;34m.../CIS190-codespace/Labs/Final/data [0;36m([1;31mmain[0;36m) [0m$ l
+[0m[34;42maircraft[0m/
+[0;32m@Timberwolf120 [0m➜ [1;34m.../CIS190-codespace/Labs/Final/data [0;36m([1;31mmain[0;36m) [0m$ cd aircraft
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat configs
+cat: configs: Is a directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd fo[K[Kcongif[K[K[Kfigs
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mn101gh[0m  [01;34mn123ab[0m  [01;34mn234ij[0m  [01;34mn567kl[0m  [01;34mn789ef[0m  tailnumbers.txt
+[01;34mn112op[0m  [01;34mn223wx[0m  [01;34mn456cd[0m  [01;34mn678st[0m  [01;34mn890mn[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ cat n123ab[K[K[K[K[K[K[K[K[K[Kcd n123ab
+[0;32m@Timberwolf120 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ ls
+config_1.ini  config_2.ini  config_3.ini  config_4.ini  config_5.ini
+[0;32m@Timberwolf120 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ cat config_1.ini
+[mission]
+mission_id = MISS-8692
+objective = Mapping
+start_time = 20:15
+duration_minutes = 360
+
+[drone]
+tail_number = n123ab
+max_altitude = 10000
+max_speed = 300
+payload_capacity = 625
+
+[camera]
+resolution = 720p
+frame_rate = 30
+infrared = False
+lidar = True
+
+[communication]
+frequency = 5.77
+encryption = AES-128
+
+[logging]
+log_level = ERROR
+log_file = /data/logs/n123ab-MISS-8692.log
+
+[waypoints]
+waypoint_1 = -7.94085, 71.927998, 418
+waypoint_2 = -25.047837, -64.252971, 1038
+waypoint_3 = 19.013184, -96.396127, 1269
+waypoint_4 = 3.231508, -177.37585, 108
+waypoint_5 = -54.309493, -88.692402, 855
+waypoint_6 = 44.736732, 173.595894, 363
+waypoint_7 = -37.46829, -70.535238, 114
+waypoint_8 = 34.357269, 176.244412, 1701
+waypoint_9 = -68.980644, -162.020635, 1500
+waypoint_10 = -66.547623, -139.624019, 1760
+
+[0;32m@Timberwolf120 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ vim config_1.ini
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"config_1.ini" 38L, 809C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m[106m[[m[35mmission[m[35m[106m][m
+[32mmission_id[m =[31m MISS-8692[m
+[32mobjective[m =[31m Mapping[m
+[32mstart_time[m =[31m 20:15[m
+[32mduration_minutes[m =[31m 360[m
+
+[35m[drone][m
+[32mtail_number[m =[31m n123ab[m
+[32mmax_altitude[m =[31m 10000[m
+[32mmax_speed[m =[31m 300[m
+[32mpayload_capacity[m =[31m 625[m
+
+[35m[camera][m
+[32mresolution[m =[31m 720p[m
+[32mframe_rate[m =[31m 30[m
+[32minfrared[m =[31m False[m
+[32mlidar[m =[31m True[m
+
+[35m[communication][m
+[32mfrequency[m =[31m 5.77[m
+[32mencryption[m =[31m AES-128[m
+
+[35m[logging][m
+[32mlog_level[m =[31m ERROR[m
+[32mlog_file[m =[31m /data/logs/n123ab-MISS-8692.log[m
+
+[35m[waypoints][m
+[32mwaypoint_1[m =[31m -7.94085, 71.927998, 418[m
+[32mwaypoint_2[m =[31m -25.047837, -64.252971, 1038[m
+[32mwaypoint_3[m =[31m 19.013184, -96.396127, 1269[m
+[32mwaypoint_4[m =[31m 3.231508, -177.37585, 108[m
+[32mwaypoint_5[m =[31m -54.309493, -88.692402, 855[m
+[32mwaypoint_6[m =[31m 44.736732, 173.595894, 363[m
+[32mwaypoint_7[m =[31m -37.46829, -70.535238, 114[m
+[32mwaypoint_8[m =[31m 34.357269, 176.244412, 1701[m
+[32mwaypoint_9[m =[31m -68.980644, -162.020635, 1500[m
+[32mwaypoint_10[m =[31m -66.547623, -139.624019, 1760[m
+
+[94m~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54Hk[1;1H[48;54H [1;1H[?25h[?25l[48;54Hj[1;1H[48;54H [2;1H[1;1H[35m[[7C][m[48;64H2[2;1H[?25h[?25l[48;54Hj[2;1H[48;54H [3;1H[48;64H3[3;1H[?25h[?25l[48;54Hj[3;1H[48;54H [4;1H[48;64H4[4;1H[?25h[?25l[48;54Hj[4;1H[48;54H [5;1H[48;64H5[5;1H[?25h[?25l[48;54Hj[5;1H[48;54H [6;1H[48;64H6,0-1[6;1H[?25h[?25l[48;54Hj[6;1H[48;54H [7;1H[35m[106m[[5C][m[48;64H7,1  [7;1H[?25h[?25l[48;54Hj[7;1H[48;54H [8;1H[7;1H[35m[drone][m[48;64H8[8;1H[?25h[?25l[48;54Hj[8;1H[48;54H [9;1H[48;64H9[9;1H[?25h[?25l[48;54Hl[9;1H[48;54H [9;2H[48;66H2[9;2H[?25h[?25l[48;54Hl[9;2H[48;54H [9;3H[48;66H3[9;3H[?25h[?25l[48;54Hl[9;3H[48;54H [9;4H[48;66H4[9;4H[?25h[?25l[48;54Hl[9;4H[48;54H [9;5H[48;66H5[9;5H[?25h[?25l[48;54Hl[9;5H[48;54H [9;6H[48;66H6[9;6H[?25h[?25l[48;54Hl[9;6H[48;54H [9;7H[48;66H7[9;7H[?25h[?25l[48;54Hl[9;7H[48;54H [9;8H[48;66H8[9;8H[?25h[?25l[48;54Hl[9;8H[48;54H [9;9H[48;66H9[9;9H[?25h[?25l[48;54Hl[9;9H[48;54H [9;10H[48;66H10[9;10H[?25h[?25l[48;54Hl[9;10H[48;54H [9;11H[48;67H1[9;11H[?25h[?25l[48;54Hl[9;11H[48;54H [9;12H[48;67H2[9;12H[?25h[?25l[48;54Hl[9;12H[48;54H [9;13H[48;67H3[9;13H[?25h[?25l[48;54Hl[9;13H[48;54H [9;14H[48;67H4[9;14H[?25h[?25l[48;54Hl[9;14H[48;54H [9;15H[48;67H5[9;15H[?25h[?25l[48;54Hl[9;15H[48;54H [9;16H[48;67H6[9;16H[?25h[?25l[48;54Hx[9;16H[48;54H [9;16H[48;54Hdl[9;16H[48;54H  [9;16H[31m0[m[9;20H[K[9;16H[?25h[?25l[48;54H3[9;16H[?25h[?25l[48;55H3[9;16H[?25h[?25l[48;56Hi[9;16H[48;54H   [9;16H[48;1H[1m-- INSERT --[m[48;13H[K[48;64H9,16[10CAll[9;16H[?25h[?25l[31m30000[m[48;67H7[9;17H[?25h[?25l[31m:0000[m[48;67H8[9;18H[?25h[?25l[31m0[m[9;21H[K[48;67H7[9;17H[?25h[48;1H[K[9;16H[?25l[48;54H^[[9;16H[48;54H  [9;17H[31m333333333333333333333333333333330000[m[48;64H9,48[10CAll[9;48H[?25h[?25l[48;54H:[9;48H[48;54H[K[48;1H:[?2004h[?25hwq[?25l[?2004l"config_1.ini" 38L, 841C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ wim [K[K[K[Kvim config_1.ini21.ini[C[1P.ini
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"config_2.ini" 38L, 803C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m[106m[[m[35mmission[m[35m[106m][m
+[32mmission_id[m =[31m MISS-4879[m
+[32mobjective[m =[31m Engagement[m
+[32mstart_time[m =[31m 02:45[m
+[32mduration_minutes[m =[31m 90[m
+
+[35m[drone][m
+[32mtail_number[m =[31m n123ab[m
+[32mmax_altitude[m =[31m 50000[m
+[32mmax_speed[m =[31m 250[m
+[32mpayload_capacity[m =[31m 600[m
+
+[35m[camera][m
+[32mresolution[m =[31m 1080p[m
+[32mframe_rate[m =[31m 24[m
+[32minfrared[m =[31m True[m
+[32mlidar[m =[31m True[m
+
+[35m[communication][m
+[32mfrequency[m =[31m 2.9[m
+[32mencryption[m =[31m None[m
+
+[35m[logging][m
+[32mlog_level[m =[31m DEBUG[m
+[32mlog_file[m =[31m /data/logs/n123ab-MISS-4879.log[m
+
+[35m[waypoints][m
+[32mwaypoint_1[m =[31m 23.695311, 8.488492, 1162[m
+[32mwaypoint_2[m =[31m -22.370626, 2.288185, 1719[m
+[32mwaypoint_3[m =[31m -60.876411, -16.316544, 628[m
+[32mwaypoint_4[m =[31m -73.466589, 120.994067, 879[m
+[32mwaypoint_5[m =[31m 76.749445, 113.738315, 1912[m
+[32mwaypoint_6[m =[31m -39.829873, 33.826342, 1586[m
+[32mwaypoint_7[m =[31m 62.622789, 42.665519, 1879[m
+[32mwaypoint_8[m =[31m -64.629633, 84.920533, 1069[m
+[32mwaypoint_9[m =[31m 9.453238, -145.110354, 211[m
+[32mwaypoint_10[m =[31m 81.20267, 139.251564, 1161[m
+
+[94m~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54Hk[1;1H[48;54H [1;1H[?25h[?25l[48;54Hk[1;1H[48;54H [1;1H[?25h[?25l[48;54Hj[1;1H[48;54H [2;1H[1;1H[35m[[7C][m[48;64H2[2;1H[?25h[?25l[48;54Hj[2;1H[48;54H [3;1H[48;64H3[3;1H[?25h[?25l[48;54Hj[3;1H[48;54H [4;1H[48;64H4[4;1H[?25h[?25l[48;54Hj[4;1H[48;54H [5;1H[48;64H5[5;1H[?25h[?25l[48;54Hj[5;1H[48;54H [6;1H[48;64H6,0-1[6;1H[?25h[?25l[48;54Hj[6;1H[48;54H [7;1H[35m[106m[[5C][m[48;64H7,1  [7;1H[?25h[?25l[48;54Hj[7;1H[48;54H [8;1H[7;1H[35m[drone][m[48;64H8[8;1H[?25h[?25l[48;54Hj[8;1H[48;54H [9;1H[48;64H9[9;1H[?25h[?25l[48;54Hl[9;1H[48;54H [9;2H[48;66H2[9;2H[?25h[?25l[48;54Hl[9;2H[48;54H [9;3H[48;66H3[9;3H[?25h[?25l[48;54Hl[9;3H[48;54H [9;4H[48;66H4[9;4H[?25h[?25l[48;54Hl[9;4H[48;54H [9;5H[48;66H5[9;5H[?25h[?25l[48;54Hl[9;5H[48;54H [9;6H[48;66H6[9;6H[?25h[?25l[48;54Hl[9;6H[48;54H [9;7H[48;66H7[9;7H[?25h[?25l[48;54Hl[9;7H[48;54H [9;8H[48;66H8[9;8H[?25h[?25l[48;54Hl[9;8H[48;54H [9;9H[48;66H9[9;9H[?25h[?25l[48;54Hl[9;9H[48;54H [9;10H[48;66H10[9;10H[?25h[?25l[48;54Hl[9;10H[48;54H [9;11H[48;67H1[9;11H[?25h[?25l[48;54Hl[9;11H[48;54H [9;12H[48;67H2[9;12H[?25h[?25l[48;54Hl[9;12H[48;54H [9;13H[48;67H3[9;13H[?25h[?25l[48;54Hl[9;13H[48;54H [9;14H[48;67H4[9;14H[?25h[?25l[48;54Hl[9;14H[48;54H [9;15H[48;67H5[9;15H[?25h[?25l[48;54Hl[9;15H[48;54H [9;16H[48;67H6[9;16H[?25h[?25l[48;54Hi[9;16H[48;54H [9;16H[48;1H[1m-- INSERT --[m[48;13H[K[48;64H9,16[10CAll[9;16H[?25h[?25l[31mx50000[m[48;67H7[9;17H[?25h[?25l[31m50[m[9;21H[K[48;67H6[9;16H[?25h[?25l[31m350000[m[48;67H7[9;17H[?25h[?25l[31m50[m[9;21H[K[48;67H6[9;16H[?25h[?25l[48;67H7[9;17H[?25h[?25l[31m0[m[9;20H[K[48;67H6[9;16H[?25h[?25l[31m30000[m[48;67H7[9;17H[?25h[48;1H[K[9;16H[?25l[48;54H^[[9;16H[48;54H  [9;17H[48;64H9,16[10CAll[9;16H[?25h[?25l[48;54H:[9;16H[48;54H[K[48;1H:[?2004h[?25hwq[?25l[?2004l"config_2.ini" 38L, 803C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ vim config_3.ini
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"config_3.ini" 38L, 809C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m[106m[[m[35mmission[m[35m[106m][m
+[32mmission_id[m =[31m MISS-4901[m
+[32mobjective[m =[31m Delivery[m
+[32mstart_time[m =[31m 17:30[m
+[32mduration_minutes[m =[31m 120[m
+
+[35m[drone][m
+[32mtail_number[m =[31m n123ab[m
+[32mmax_altitude[m =[31m 35000[m
+[32mmax_speed[m =[31m 250[m
+[32mpayload_capacity[m =[31m 700[m
+
+[35m[camera][m
+[32mresolution[m =[31m 1080p[m
+[32mframe_rate[m =[31m 24[m
+[32minfrared[m =[31m True[m
+[32mlidar[m =[31m False[m
+
+[35m[communication][m
+[32mfrequency[m =[31m 5.18[m
+[32mencryption[m =[31m AES-256[m
+
+[35m[logging][m
+[32mlog_level[m =[31m ERROR[m
+[32mlog_file[m =[31m /data/logs/n123ab-MISS-4901.log[m
+
+[35m[waypoints][m
+[32mwaypoint_1[m =[31m -34.760137, 1.853969, 244[m
+[32mwaypoint_2[m =[31m 15.502031, 93.221997, 1813[m
+[32mwaypoint_3[m =[31m 42.621715, 7.335771, 1396[m
+[32mwaypoint_4[m =[31m 71.632636, -101.032309, 1479[m
+[32mwaypoint_5[m =[31m 85.553904, 81.119861, 620[m
+[32mwaypoint_6[m =[31m -47.409775, -115.736535, 996[m
+[32mwaypoint_7[m =[31m 44.387758, 74.291912, 1724[m
+[32mwaypoint_8[m =[31m -84.916736, -71.129553, 1045[m
+[32mwaypoint_9[m =[31m 84.638587, 154.381035, 1688[m
+[32mwaypoint_10[m =[31m 55.323739, -160.917301, 1267[m
+
+[94m~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54Hk[1;1H[48;54H [1;1H[?25h[?25l[48;54Hk[1;1H[48;54H [1;1H[?25h[?25l[48;54Hl[1;1H[48;54H [1;2H[35m[[7C][m[48;66H2[1;2H[?25h[?25l[48;54Hj[1;2H[48;54H [2;2H[48;64H2[2;2H[?25h[?25l[48;54Hj[2;2H[48;54H [3;2H[48;64H3[3;2H[?25h[?25l[48;54Hj[3;2H[48;54H [4;2H[48;64H4[4;2H[?25h[?25l[48;54Hj[4;2H[48;54H [5;2H[48;64H5[5;2H[?25h[?25l[48;54Hj[5;2H[48;54H [6;1H[48;64H6,0-1[6;1H[?25h[?25l[48;54Hj[6;1H[48;54H [7;2H[48;64H7,2  [7;2H[?25h[?25l[48;54Hj[7;2H[48;54H [8;2H[48;64H8[8;2H[?25h[?25l[48;54Hl[8;2H[48;54H [8;3H[48;66H3[8;3H[?25h[?25l[48;54Hl[8;3H[48;54H [8;4H[48;66H4[8;4H[?25h[?25l[48;54Hl[8;4H[48;54H [8;5H[48;66H5[8;5H[?25h[?25l[48;54Hl[8;5H[48;54H [8;6H[48;66H6[8;6H[?25h[?25l[48;54Hl[8;6H[48;54H [8;7H[48;66H7[8;7H[?25h[?25l[48;54Hj[8;7H[48;54H [9;7H[48;64H9[9;7H[?25h[?25l[48;54Hj[9;7H[48;54H [10;7H[48;64H10,7[10;7H[?25h[?25l[48;54Hl[10;7H[48;54H [10;8H[48;67H8[10;8H[?25h[?25l[48;54Hk[10;8H[48;54H [9;8H[48;64H9,8 [9;8H[?25h[?25l[48;54Hl[9;8H[48;54H [9;9H[48;66H9[9;9H[?25h[?25l[48;54Hl[9;9H[48;54H [9;10H[48;66H10[9;10H[?25h[?25l[48;54Hl[9;10H[48;54H [9;11H[48;67H1[9;11H[?25h[?25l[48;54Hl[9;11H[48;54H [9;12H[48;67H2[9;12H[?25h[?25l[48;54Hl[9;12H[48;54H [9;13H[48;67H3[9;13H[?25h[?25l[48;54Hl[9;13H[48;54H [9;14H[48;67H4[9;14H[?25h[?25l[48;54Hl[9;14H[48;54H [9;15H[48;67H5[9;15H[?25h[?25l[48;54Hl[9;15H[48;54H [9;16H[48;67H6[9;16H[?25h[?25l[48;54Hl[9;16H[48;54H [9;17H[48;67H7[9;17H[?25h[?25l[48;54Hl[9;17H[48;54H [9;18H[48;67H8[9;18H[?25h[?25l[48;54Hi[9;18H[48;54H [9;18H[48;1H[1m-- INSERT --[m[48;13H[K[48;64H9,18[10CAll[9;18H[?25h[?25l[31m0[m[9;20H[K[48;67H7[9;17H[?25h[?25l[31m0[m[9;19H[K[48;67H6[9;16H[?25h[?25l[31m3000[m[48;67H7[9;17H[?25h[?25l[3C[31m0[m[48;67H8[9;18H[?25h[48;1H[K[9;17H[?25l[48;54H^[[9;17H[48;54H  [9;18H[48;64H9,17[10CAll[9;17H[?25h[?25l[48;54H:[9;17H[48;54H[K[48;1H:[?2004h[?25hwq[?25l[?2004l"config_3.ini" 38L, 809C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ vim congi[K[Kfigc[K_4.ini
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"config_4.ini" 38L, 806C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m[106m[[m[35mmission[m[35m[106m][m
+[32mmission_id[m =[31m MISS-2856[m
+[32mobjective[m =[31m Mapping[m
+[32mstart_time[m =[31m 22:30[m
+[32mduration_minutes[m =[31m 90[m
+
+[35m[drone][m
+[32mtail_number[m =[31m n123ab[m
+[32mmax_altitude[m =[31m 35000[m
+[32mmax_speed[m =[31m 250[m
+[32mpayload_capacity[m =[31m 475[m
+
+[35m[camera][m
+[32mresolution[m =[31m 4K[m
+[32mframe_rate[m =[31m 30[m
+[32minfrared[m =[31m True[m
+[32mlidar[m =[31m True[m
+
+[35m[communication][m
+[32mfrequency[m =[31m 4.88[m
+[32mencryption[m =[31m AES-256[m
+
+[35m[logging][m
+[32mlog_level[m =[31m DEBUG[m
+[32mlog_file[m =[31m /data/logs/n123ab-MISS-2856.log[m
+
+[35m[waypoints][m
+[32mwaypoint_1[m =[31m 77.088781, 94.131458, 157[m
+[32mwaypoint_2[m =[31m -75.532994, -102.046755, 1917[m
+[32mwaypoint_3[m =[31m -44.476098, -77.716091, 810[m
+[32mwaypoint_4[m =[31m 47.649224, -121.459297, 739[m
+[32mwaypoint_5[m =[31m 64.736373, 0.133086, 1205[m
+[32mwaypoint_6[m =[31m -71.085248, -42.863777, 1704[m
+[32mwaypoint_7[m =[31m 48.426382, 151.583432, 691[m
+[32mwaypoint_8[m =[31m 61.817694, -153.150876, 1286[m
+[32mwaypoint_9[m =[31m -56.154916, -142.908445, 731[m
+[32mwaypoint_10[m =[31m -38.809603, -7.321311, 708[m
+
+[94m~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54Hj[1;1H[48;54H [2;1H[1;1H[35m[[7C][m[48;64H2[2;1H[?25h[?25l[48;54Hj[2;1H[48;54H [3;1H[48;64H3[3;1H[?25h[?25l[48;54Hj[3;1H[48;54H [4;1H[48;64H4[4;1H[?25h[?25l[48;54Hj[4;1H[48;54H [5;1H[48;64H5[5;1H[?25h[?25l[48;54Hj[5;1H[48;54H [6;1H[48;64H6,0-1[6;1H[?25h[?25l[48;54Hj[6;1H[48;54H [7;1H[35m[106m[[5C][m[48;64H7,1  [7;1H[?25h[?25l[48;54Hj[7;1H[48;54H [8;1H[7;1H[35m[drone][m[48;64H8[8;1H[?25h[?25l[48;54Hj[8;1H[48;54H [9;1H[48;64H9[9;1H[?25h[?25l[48;54Hj[9;1H[48;54H [10;1H[48;64H10,1[10;1H[?25h[?25l[48;54Hh[10;1H[48;54H [10;1H[?25h[?25l[48;54Hk[10;1H[48;54H [9;1H[48;64H9,1 [9;1H[?25h[?25l[48;54H;[9;1H[48;54H [9;1H[?25h[?25l[48;54Hl[9;1H[48;54H [9;2H[48;66H2[9;2H[?25h[?25l[48;54Hl[9;2H[48;54H [9;3H[48;66H3[9;3H[?25h[?25l[48;54Hl[9;3H[48;54H [9;4H[48;66H4[9;4H[?25h[?25l[48;54Hl[9;4H[48;54H [9;5H[48;66H5[9;5H[?25h[?25l[48;54Hl[9;5H[48;54H [9;6H[48;66H6[9;6H[?25h[?25l[48;54Hl[9;6H[48;54H [9;7H[48;66H7[9;7H[?25h[?25l[48;54Hl[9;7H[48;54H [9;8H[48;66H8[9;8H[?25h[?25l[48;54Hl[9;8H[48;54H [9;9H[48;66H9[9;9H[?25h[?25l[48;54Hl[9;9H[48;54H [9;10H[48;66H10[9;10H[?25h[?25l[48;54Hl[9;10H[48;54H [9;11H[48;67H1[9;11H[?25h[?25l[48;54Hl[9;11H[48;54H [9;12H[48;67H2[9;12H[?25h[?25l[48;54Hl[9;12H[48;54H [9;13H[48;67H3[9;13H[?25h[?25l[48;54Hl[9;13H[48;54H [9;14H[48;67H4[9;14H[?25h[?25l[48;54Hl[9;14H[48;54H [9;15H[48;67H5[9;15H[?25h[?25l[48;54Hl[9;15H[48;54H [9;16H[48;67H6[9;16H[?25h[?25l[48;54Hl[9;16H[48;54H [9;17H[48;67H7[9;17H[?25h[?25l[48;54Hl[9;17H[48;54H [9;18H[48;67H8[9;18H[?25h[?25l[48;54Hi[9;18H[48;54H [9;18H[48;1H[1m-- INSERT --[m[48;13H[K[48;64H9,18[10CAll[9;18H[?25h[?25l[31m0[m[9;20H[K[48;67H7[9;17H[?25h[?25l[3C[31m0[m[48;67H8[9;18H[?25h[48;1H[K[9;17H[?25l[48;54H^[[9;17H[48;54H  [9;18H[48;64H9,17[10CAll[9;17H[?25h[?25l[48;54H:[9;17H[48;54H[K[48;1H:[?2004h[?25hwq[?25l[?2004l"config_4.ini" 38L, 806C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ vim config_5.ini
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"config_5.ini" 38L, 808C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m[106m[[m[35mmission[m[35m[106m][m
+[32mmission_id[m =[31m MISS-8637[m
+[32mobjective[m =[31m Engagement[m
+[32mstart_time[m =[31m 06:00[m
+[32mduration_minutes[m =[31m 180[m
+
+[35m[drone][m
+[32mtail_number[m =[31m n123ab[m
+[32mmax_altitude[m =[31m 15000[m
+[32mmax_speed[m =[31m 300[m
+[32mpayload_capacity[m =[31m 625[m
+
+[35m[camera][m
+[32mresolution[m =[31m 720p[m
+[32mframe_rate[m =[31m 30[m
+[32minfrared[m =[31m True[m
+[32mlidar[m =[31m False[m
+
+[35m[communication][m
+[32mfrequency[m =[31m 4.71[m
+[32mencryption[m =[31m None[m
+
+[35m[logging][m
+[32mlog_level[m =[31m DEBUG[m
+[32mlog_file[m =[31m /data/logs/n123ab-MISS-8637.log[m
+
+[35m[waypoints][m
+[32mwaypoint_1[m =[31m -87.99274, 104.162158, 1668[m
+[32mwaypoint_2[m =[31m -13.311878, -84.779037, 1958[m
+[32mwaypoint_3[m =[31m 60.95737, 161.862808, 1269[m
+[32mwaypoint_4[m =[31m 4.586076, 146.240605, 1213[m
+[32mwaypoint_5[m =[31m 89.286738, 166.835195, 596[m
+[32mwaypoint_6[m =[31m 59.733724, -37.324704, 1136[m
+[32mwaypoint_7[m =[31m -72.777202, -150.320335, 819[m
+[32mwaypoint_8[m =[31m -84.909701, 166.335245, 362[m
+[32mwaypoint_9[m =[31m -3.985176, -132.105555, 813[m
+[32mwaypoint_10[m =[31m 68.599431, 53.540754, 473[m
+
+[94m~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54Hk[1;1H[48;54H [1;1H[?25h[?25l[48;54Hk[1;1H[48;54H [1;1H[?25h[?25l[48;54Hk[1;1H[48;54H [1;1H[?25h[?25l[48;54Hj[1;1H[48;54H [2;1H[1;1H[35m[[7C][m[48;64H2[2;1H[?25h[?25l[48;54Hj[2;1H[48;54H [3;1H[48;64H3[3;1H[?25h[?25l[48;54Hj[3;1H[48;54H [4;1H[48;64H4[4;1H[?25h[?25l[48;54Hj[4;1H[48;54H [5;1H[48;64H5[5;1H[?25h[?25l[48;54Hj[5;1H[48;54H [6;1H[48;64H6,0-1[6;1H[?25h[?25l[48;54Hj[6;1H[48;54H [7;1H[35m[106m[[5C][m[48;64H7,1  [7;1H[?25h[?25l[48;54Hj[7;1H[48;54H [8;1H[7;1H[35m[drone][m[48;64H8[8;1H[?25h[?25l[48;54Hj[8;1H[48;54H [9;1H[48;64H9[9;1H[?25h[?25l[48;54Hl[9;1H[48;54H [9;2H[48;66H2[9;2H[?25h[?25l[48;54Hl[9;2H[48;54H [9;3H[48;66H3[9;3H[?25h[?25l[48;54Hl[9;3H[48;54H [9;4H[48;66H4[9;4H[?25h[?25l[48;54Hl[9;4H[48;54H [9;5H[48;66H5[9;5H[?25h[?25l[48;54Hl[9;5H[48;54H [9;6H[48;66H6[9;6H[?25h[?25l[48;54Hl[9;6H[48;54H [9;7H[48;66H7[9;7H[?25h[?25l[48;54Hl[9;7H[48;54H [9;8H[48;66H8[9;8H[?25h[?25l[48;54Hl[9;8H[48;54H [9;9H[48;66H9[9;9H[?25h[?25l[48;54Hl[9;9H[48;54H [9;10H[48;66H10[9;10H[?25h[?25l[48;54Hl[9;10H[48;54H [9;11H[48;67H1[9;11H[?25h[?25l[48;54Hl[9;11H[48;54H [9;12H[48;67H2[9;12H[?25h[?25l[48;54Hl[9;12H[48;54H [9;13H[48;67H3[9;13H[?25h[?25l[48;54Hl[9;13H[48;54H [9;14H[48;67H4[9;14H[?25h[?25l[48;54Hl[9;14H[48;54H [9;15H[48;67H5[9;15H[?25h[?25l[48;54Hl[9;15H[48;54H [9;16H[48;67H6[9;16H[?25h[?25l[48;54Hl[9;16H[48;54H [9;17H[48;67H7[9;17H[?25h[?25l[48;54Hl[9;17H[48;54H [9;18H[48;67H8[9;18H[?25h[?25l[48;54Hi[9;18H[48;54H [9;18H[48;1H[1m-- INSERT --[m[48;13H[K[48;64H9,18[10CAll[9;18H[?25h[?25l[31m0[m[9;20H[K[48;67H7[9;17H[?25h[?25l[31m0[m[9;19H[K[48;67H6[9;16H[?25h[?25l[31m3000[m[48;67H7[9;17H[?25h[?25l[3C[31m0[m[48;67H8[9;18H[?25h[48;1H[K[9;17H[?25l[48;54H^[[9;17H[48;54H  [9;18H[48;64H9,17[10CAll[9;17H[?25h[?25l[48;54H:[9;17H[48;54H[K[48;1H:[?2004h[?25hwq[?25l[?2004l"config_5.ini" 38L, 808C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../data/aircraft/configs/n123ab [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ we[Kget https://boss.vvc.eedu /tonning/classics/cis190/resources/final_logs.tgz
+--2024-08-06 15:27:54--  https://boss.vvc.eedu/tonning/classics/cis190/resources/final_logs.tgz
+Resolving boss.vvc.eedu (boss.vvc.eedu)... failed: Name or service not known.
+wget: unable to resolve host address ‘boss.vvc.eedu’
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ wget g[Khttps://boss.e[Kvvc.edu/ tonning/classics[K[K[Ks[Kes/cis190/resources/final_logs.tgz
+--2024-08-06 15:28:34--  https://boss.vvc.edu/tonning/classes/cis190/resources/final_logs.tgz
+Resolving boss.vvc.edu (boss.vvc.edu)... 207.233.102.33
+Connecting to boss.vvc.edu (boss.vvc.edu)|207.233.102.33|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10561 (10K) [application/octet-stream]
+Saving to: ‘final_logs.tgz’
+
+final_logs.tgz         0%[                    ]       0  --.-KB/s               final_logs.tgz       100%[===================>]  10.31K  --.-KB/s    in 0s      
+
+2024-08-06 15:28:34 (29.6 MB/s) - ‘final_logs.tgz’ saved [10561/10561]
+
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ tar -xvf final_logs.tgz
+logs/
+logs/n101gh_telemetry.log
+logs/n123ab_telemetry.log
+logs/n567kl_telemetry.log
+logs/n112op_telemetry.log
+logs/n456cd_telemetry.log
+logs/n890mn_telemetry.log
+logs/n234ij_telemetry.log
+logs/n789ef_telemetry.log
+logs/n223wx_telemetry.log
+logs/n678st_telemetry.log
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mfinal_logs.tgz[0m  [01;34mlogs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep GPS * | gps_summary.t xt
+bash: gps_summary.txt: command not found
+grep: configs: Is a directory
+grep: logs: Is a directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep GPS * | gps_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep GPS * | gps_summary.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C gps_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ct gps_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Co gps_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu gps_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc gps_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch gps_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+grep: configs: Is a directory
+grep: logs: Is a directory
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep GPS * | touch gps_summary.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | touch gps_summa[1Pry.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[CC | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[Co | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[Cn | touch gps_su[Cmary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Cf | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ci | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cg | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | touch gps[1P_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | touch gps_[1Psummary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C | touch gps_s[1Pummary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C | touch gps_su[1Pmmary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C | touch gps_sum[C[1Pary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C | touch gps_summ[1Pary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C | touch gps_summa[1Pry.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[Cc | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[Co | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[Cn | touch gps_su[Cmary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Cg | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ci | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C | touch gps_s[1Pummary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C | touch gps_su[1Pmmary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Cf | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ci | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cg | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+grep: configs: Is a directory
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mfinal_logs.tgz[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd==[K[K[K[Kgrep GPS configs/ | touch  gps_summart[Ky.txt
+grep: configs/: Is a directory
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep ls - [Kl GPS configs |to uch sp[K[Kgps_summary.txt
+grep: GPS: No such file or directory
+grep: configs: Is a directory
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd configs
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mn101gh[0m  [01;34mn123ab[0m  [01;34mn234ij[0m  [01;34mn567kl[0m  [01;34mn789ef[0m  tailnumbers.txt
+[01;34mn112op[0m  [01;34mn223wx[0m  [01;34mn456cd[0m  [01;34mn678st[0m  [01;34mn890mn[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Final/data/aircraft/configs [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep -r GPS |[K| go[Kps_config.t xt[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Ksummary. txt
+bash: gps_summary.txt: command not found
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep -r GPS | touch gps_su mmary.txt
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mfinal_logs.tgz[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim [K[K[K[Kcat gps)[K_sm[Kummary.txt
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim gps_summary.tt[Kxt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"gps_summary.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                [3;1H~                                                                                [4;1H~                                                                                [5;1H~                                                                                [6;1H~                                                                                [7;1H~                                                                                [8;1H~                                                                                [9;1H~                                                                                [10;1H~                                                                                [11;1H~                                                                                [12;1H~                                                                                [13;1H~                                                                                [14;1H~                                                                                [15;1H~                                                                                [16;1H~                                                                                [17;1H~                                                                                [18;1H~                                                                                [19;1H~                                                                                [20;1H~                                                                                [21;1H~                                                                                [22;1H~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [36;1H~                                                                                [37;1H~                                                                                [38;1H~                                                                                [39;1H~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54H^[[1;1H[48;54H  [1;1H[48;54H^[[1;1H[48;54H  [1;1H[?25h[?25l[48;54H:[1;1H[48;1H[K[48;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[48;1H[K[48;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd ..[K[K[K[K[Kvim gps_summary.txtcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgrep -r GPS | touch gps_summary.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | touch gps_su[Cmary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Cc | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Co | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cn | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mfinal_logs.tgz[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat gps_summary.txt
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim gps_summarty.t[K[K[K[Kt[Ky.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"gps_summary.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                [3;1H~                                                                                [4;1H~                                                                                [5;1H~                                                                                [6;1H~                                                                                [7;1H~                                                                                [8;1H~                                                                                [9;1H~                                                                                [10;1H~                                                                                [11;1H~                                                                                [12;1H~                                                                                [13;1H~                                                                                [14;1H~                                                                                [15;1H~                                                                                [16;1H~                                                                                [17;1H~                                                                                [18;1H~                                                                                [19;1H~                                                                                [20;1H~                                                                                [21;1H~                                                                                [22;1H~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [36;1H~                                                                                [37;1H~                                                                                [38;1H~                                                                                [39;1H~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54H^[[1;1H[48;54H  [1;1H[48;54H^[[1;1H[48;54H  [1;1H[?25h[?25l[48;54H:[1;1H[48;1H[K[48;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[48;1H[K[48;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim gps_summary.txtcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgrep -r GPS configs | touch gps_summary.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch [1Pgps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch g[1Pps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch gp[1Ps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch gps[1P_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch gps_[1Psummary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cs | touch gps_s[1Pummary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Cls | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cos | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cgs | touch gps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat gps_Summary.txt
+cat: gps_Summary.txt: No such file or directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat gps_Summary.txt[1Pummary.txtsummary.txt
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim gps_summary.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"gps_summary.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                [3;1H~                                                                                [4;1H~                                                                                [5;1H~                                                                                [6;1H~                                                                                [7;1H~                                                                                [8;1H~                                                                                [9;1H~                                                                                [10;1H~                                                                                [11;1H~                                                                                [12;1H~                                                                                [13;1H~                                                                                [14;1H~                                                                                [15;1H~                                                                                [16;1H~                                                                                [17;1H~                                                                                [18;1H~                                                                                [19;1H~                                                                                [20;1H~                                                                                [21;1H~                                                                                [22;1H~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [36;1H~                                                                                [37;1H~                                                                                [38;1H~                                                                                [39;1H~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54H:[1;1H[48;1H[K[48;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[48;1H[K[48;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep -r GPS logs*
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0525, Longitude: -118.2436
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0528, Longitude: -118.2431
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0532, Longitude: -118.2428
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0535, Longitude: -118.2423
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0538, Longitude: -118.2420
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0541, Longitude: -118.2416
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0546, Longitude: -118.2413
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0548, Longitude: -118.2409
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0549, Longitude: -118.2404
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0554, Longitude: -118.2401
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0556, Longitude: -118.2399
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0558, Longitude: -118.2398
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0560, Longitude: -118.2393
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0563, Longitude: -118.2389
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0565, Longitude: -118.2387
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0567, Longitude: -118.2383
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0569, Longitude: -118.2381
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0574, Longitude: -118.2376
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0577, Longitude: -118.2373
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0581, Longitude: -118.2370
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0585, Longitude: -118.2368
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0588, Longitude: -118.2366
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0591, Longitude: -118.2365
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0594, Longitude: -118.2361
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0596, Longitude: -118.2357
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0597, Longitude: -118.2353
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0602, Longitude: -118.2352
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0605, Longitude: -118.2349
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0609, Longitude: -118.2347
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0611, Longitude: -118.2344
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0607, Longitude: -118.2347
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0604, Longitude: -118.2351
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0602, Longitude: -118.2353
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0598, Longitude: -118.2354
+[35m[Klogs/n223wx_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0593, Longitude: -118.2357
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0525, Longitude: -118.2434
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0527, Longitude: -118.2432
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0529, Longitude: -118.2428
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0533, Longitude: -118.2424
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0535, Longitude: -118.2419
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0536, Longitude: -118.2415
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0539, Longitude: -118.2410
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0543, Longitude: -118.2408
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0548, Longitude: -118.2403
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0551, Longitude: -118.2399
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0554, Longitude: -118.2396
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0558, Longitude: -118.2393
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0560, Longitude: -118.2389
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0565, Longitude: -118.2385
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0568, Longitude: -118.2380
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0571, Longitude: -118.2376
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0573, Longitude: -118.2372
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0576, Longitude: -118.2371
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0580, Longitude: -118.2368
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0582, Longitude: -118.2365
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0583, Longitude: -118.2360
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0585, Longitude: -118.2358
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0588, Longitude: -118.2356
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0591, Longitude: -118.2354
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0593, Longitude: -118.2350
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0596, Longitude: -118.2348
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0598, Longitude: -118.2347
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0603, Longitude: -118.2345
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0606, Longitude: -118.2341
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0610, Longitude: -118.2338
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0608, Longitude: -118.2340
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0604, Longitude: -118.2342
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0600, Longitude: -118.2344
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0598, Longitude: -118.2347
+[35m[Klogs/n112op_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0595, Longitude: -118.2349
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0524, Longitude: -118.2434
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0528, Longitude: -118.2430
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0532, Longitude: -118.2426
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0536, Longitude: -118.2425
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0538, Longitude: -118.2421
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0541, Longitude: -118.2416
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0543, Longitude: -118.2414
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0547, Longitude: -118.2410
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0550, Longitude: -118.2407
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0554, Longitude: -118.2405
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0555, Longitude: -118.2400
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0558, Longitude: -118.2399
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0559, Longitude: -118.2395
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0563, Longitude: -118.2391
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0564, Longitude: -118.2390
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0568, Longitude: -118.2389
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0570, Longitude: -118.2387
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0575, Longitude: -118.2383
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0577, Longitude: -118.2378
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0581, Longitude: -118.2377
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0584, Longitude: -118.2375
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0588, Longitude: -118.2371
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0592, Longitude: -118.2368
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0597, Longitude: -118.2364
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0600, Longitude: -118.2360
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0601, Longitude: -118.2356
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0605, Longitude: -118.2354
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0609, Longitude: -118.2349
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0610, Longitude: -118.2346
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0614, Longitude: -118.2342
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0609, Longitude: -118.2346
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0607, Longitude: -118.2349
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0604, Longitude: -118.2350
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0600, Longitude: -118.2355
+[35m[Klogs/n123ab_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0595, Longitude: -118.2359
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0526, Longitude: -118.2434
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0528, Longitude: -118.2432
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0530, Longitude: -118.2431
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0533, Longitude: -118.2429
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0537, Longitude: -118.2426
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0542, Longitude: -118.2424
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0543, Longitude: -118.2420
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0548, Longitude: -118.2418
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0551, Longitude: -118.2414
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0552, Longitude: -118.2411
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0553, Longitude: -118.2406
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0557, Longitude: -118.2405
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0559, Longitude: -118.2403
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0561, Longitude: -118.2400
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0563, Longitude: -118.2398
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0566, Longitude: -118.2397
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0570, Longitude: -118.2393
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0574, Longitude: -118.2392
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0578, Longitude: -118.2390
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0580, Longitude: -118.2387
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0583, Longitude: -118.2385
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0586, Longitude: -118.2382
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0590, Longitude: -118.2377
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0595, Longitude: -118.2373
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0598, Longitude: -118.2369
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0601, Longitude: -118.2366
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0606, Longitude: -118.2361
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0609, Longitude: -118.2358
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0611, Longitude: -118.2357
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0613, Longitude: -118.2352
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0612, Longitude: -118.2357
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0610, Longitude: -118.2359
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0607, Longitude: -118.2361
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0605, Longitude: -118.2363
+[35m[Klogs/n789ef_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0603, Longitude: -118.2365
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0527, Longitude: -118.2436
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0529, Longitude: -118.2433
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0533, Longitude: -118.2431
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0537, Longitude: -118.2426
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0541, Longitude: -118.2424
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0545, Longitude: -118.2422
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0549, Longitude: -118.2418
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0553, Longitude: -118.2414
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0556, Longitude: -118.2412
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0558, Longitude: -118.2409
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0560, Longitude: -118.2406
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0563, Longitude: -118.2403
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0567, Longitude: -118.2400
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0571, Longitude: -118.2396
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0573, Longitude: -118.2392
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0574, Longitude: -118.2389
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0578, Longitude: -118.2386
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0582, Longitude: -118.2382
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0586, Longitude: -118.2378
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0588, Longitude: -118.2376
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0589, Longitude: -118.2372
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0591, Longitude: -118.2368
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0594, Longitude: -118.2365
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0595, Longitude: -118.2364
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0596, Longitude: -118.2359
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0601, Longitude: -118.2355
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0604, Longitude: -118.2352
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0608, Longitude: -118.2349
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0609, Longitude: -118.2347
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0610, Longitude: -118.2344
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0608, Longitude: -118.2349
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0606, Longitude: -118.2350
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0603, Longitude: -118.2354
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0598, Longitude: -118.2358
+[35m[Klogs/n567kl_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0593, Longitude: -118.2361
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0526, Longitude: -118.2434
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0528, Longitude: -118.2431
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0530, Longitude: -118.2428
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0533, Longitude: -118.2425
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0535, Longitude: -118.2422
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0538, Longitude: -118.2420
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0541, Longitude: -118.2418
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0543, Longitude: -118.2414
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0545, Longitude: -118.2410
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0547, Longitude: -118.2408
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0549, Longitude: -118.2407
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0550, Longitude: -118.2405
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0554, Longitude: -118.2403
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0555, Longitude: -118.2401
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0560, Longitude: -118.2398
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0561, Longitude: -118.2393
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0564, Longitude: -118.2391
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0567, Longitude: -118.2388
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0571, Longitude: -118.2387
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0576, Longitude: -118.2386
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0581, Longitude: -118.2381
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0584, Longitude: -118.2379
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0588, Longitude: -118.2377
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0589, Longitude: -118.2376
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0591, Longitude: -118.2372
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0593, Longitude: -118.2370
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0596, Longitude: -118.2365
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0600, Longitude: -118.2361
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0603, Longitude: -118.2358
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0608, Longitude: -118.2354
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0607, Longitude: -118.2358
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0604, Longitude: -118.2361
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0601, Longitude: -118.2364
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0596, Longitude: -118.2365
+[35m[Klogs/n678st_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0594, Longitude: -118.2368
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0524, Longitude: -118.2434
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0528, Longitude: -118.2433
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0532, Longitude: -118.2430
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0537, Longitude: -118.2427
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0538, Longitude: -118.2426
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0540, Longitude: -118.2421
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0544, Longitude: -118.2419
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0548, Longitude: -118.2417
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0551, Longitude: -118.2413
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0555, Longitude: -118.2411
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0558, Longitude: -118.2408
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0561, Longitude: -118.2404
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0563, Longitude: -118.2402
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0567, Longitude: -118.2400
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0569, Longitude: -118.2398
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0571, Longitude: -118.2394
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0572, Longitude: -118.2391
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0574, Longitude: -118.2388
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0576, Longitude: -118.2385
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0581, Longitude: -118.2383
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0584, Longitude: -118.2380
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0586, Longitude: -118.2377
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0591, Longitude: -118.2372
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0594, Longitude: -118.2369
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0598, Longitude: -118.2367
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0603, Longitude: -118.2362
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0605, Longitude: -118.2359
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0609, Longitude: -118.2356
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0614, Longitude: -118.2351
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0617, Longitude: -118.2348
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0614, Longitude: -118.2350
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0610, Longitude: -118.2353
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0607, Longitude: -118.2358
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0606, Longitude: -118.2360
+[35m[Klogs/n456cd_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0603, Longitude: -118.2362
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0524, Longitude: -118.2435
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0526, Longitude: -118.2433
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0528, Longitude: -118.2430
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0531, Longitude: -118.2426
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0533, Longitude: -118.2424
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0537, Longitude: -118.2423
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0542, Longitude: -118.2420
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0544, Longitude: -118.2419
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0546, Longitude: -118.2417
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0548, Longitude: -118.2413
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0552, Longitude: -118.2410
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0554, Longitude: -118.2406
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0558, Longitude: -118.2405
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0563, Longitude: -118.2401
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0567, Longitude: -118.2399
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0569, Longitude: -118.2398
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0572, Longitude: -118.2393
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0575, Longitude: -118.2390
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0577, Longitude: -118.2388
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0580, Longitude: -118.2383
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0584, Longitude: -118.2380
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0588, Longitude: -118.2376
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0592, Longitude: -118.2372
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0595, Longitude: -118.2369
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0596, Longitude: -118.2366
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0601, Longitude: -118.2364
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0605, Longitude: -118.2359
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0606, Longitude: -118.2357
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0610, Longitude: -118.2354
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0613, Longitude: -118.2351
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0608, Longitude: -118.2353
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0604, Longitude: -118.2357
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0600, Longitude: -118.2360
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0596, Longitude: -118.2363
+[35m[Klogs/n101gh_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0592, Longitude: -118.2367
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0526, Longitude: -118.2432
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0529, Longitude: -118.2430
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0531, Longitude: -118.2428
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0536, Longitude: -118.2425
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0541, Longitude: -118.2421
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0544, Longitude: -118.2419
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0548, Longitude: -118.2415
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0553, Longitude: -118.2414
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0555, Longitude: -118.2411
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0558, Longitude: -118.2409
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0561, Longitude: -118.2406
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0566, Longitude: -118.2405
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0567, Longitude: -118.2402
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0571, Longitude: -118.2399
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0574, Longitude: -118.2396
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0575, Longitude: -118.2393
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0576, Longitude: -118.2390
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0580, Longitude: -118.2386
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0583, Longitude: -118.2384
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0585, Longitude: -118.2380
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0589, Longitude: -118.2376
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0591, Longitude: -118.2374
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0595, Longitude: -118.2370
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0596, Longitude: -118.2368
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0597, Longitude: -118.2366
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0602, Longitude: -118.2364
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0605, Longitude: -118.2359
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0609, Longitude: -118.2357
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0614, Longitude: -118.2353
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0615, Longitude: -118.2352
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0613, Longitude: -118.2356
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0610, Longitude: -118.2361
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0607, Longitude: -118.2363
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0602, Longitude: -118.2366
+[35m[Klogs/n890mn_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0599, Longitude: -118.2370
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:33:10] [01;31m[KGPS[m[K: Latitude: 34.0527, Longitude: -118.2432
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:34:10] [01;31m[KGPS[m[K: Latitude: 34.0528, Longitude: -118.2430
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:35:10] [01;31m[KGPS[m[K: Latitude: 34.0530, Longitude: -118.2428
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:36:10] [01;31m[KGPS[m[K: Latitude: 34.0534, Longitude: -118.2425
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:37:10] [01;31m[KGPS[m[K: Latitude: 34.0537, Longitude: -118.2421
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:38:10] [01;31m[KGPS[m[K: Latitude: 34.0540, Longitude: -118.2417
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:39:10] [01;31m[KGPS[m[K: Latitude: 34.0544, Longitude: -118.2415
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:40:10] [01;31m[KGPS[m[K: Latitude: 34.0546, Longitude: -118.2412
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:41:10] [01;31m[KGPS[m[K: Latitude: 34.0551, Longitude: -118.2407
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:42:10] [01;31m[KGPS[m[K: Latitude: 34.0553, Longitude: -118.2405
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:43:10] [01;31m[KGPS[m[K: Latitude: 34.0555, Longitude: -118.2404
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:44:10] [01;31m[KGPS[m[K: Latitude: 34.0556, Longitude: -118.2399
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:45:10] [01;31m[KGPS[m[K: Latitude: 34.0558, Longitude: -118.2397
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:46:10] [01;31m[KGPS[m[K: Latitude: 34.0560, Longitude: -118.2392
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:47:10] [01;31m[KGPS[m[K: Latitude: 34.0564, Longitude: -118.2389
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:48:10] [01;31m[KGPS[m[K: Latitude: 34.0566, Longitude: -118.2387
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:49:10] [01;31m[KGPS[m[K: Latitude: 34.0571, Longitude: -118.2385
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:50:10] [01;31m[KGPS[m[K: Latitude: 34.0572, Longitude: -118.2382
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:51:10] [01;31m[KGPS[m[K: Latitude: 34.0574, Longitude: -118.2378
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:52:10] [01;31m[KGPS[m[K: Latitude: 34.0577, Longitude: -118.2374
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:53:10] [01;31m[KGPS[m[K: Latitude: 34.0582, Longitude: -118.2370
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:54:10] [01;31m[KGPS[m[K: Latitude: 34.0583, Longitude: -118.2369
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:55:10] [01;31m[KGPS[m[K: Latitude: 34.0588, Longitude: -118.2364
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:56:10] [01;31m[KGPS[m[K: Latitude: 34.0589, Longitude: -118.2361
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:57:10] [01;31m[KGPS[m[K: Latitude: 34.0592, Longitude: -118.2356
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:58:10] [01;31m[KGPS[m[K: Latitude: 34.0595, Longitude: -118.2351
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 14:59:10] [01;31m[KGPS[m[K: Latitude: 34.0598, Longitude: -118.2349
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:00:10] [01;31m[KGPS[m[K: Latitude: 34.0603, Longitude: -118.2347
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:01:10] [01;31m[KGPS[m[K: Latitude: 34.0607, Longitude: -118.2343
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:02:10] [01;31m[KGPS[m[K: Latitude: 34.0610, Longitude: -118.2339
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:03:10] [01;31m[KGPS[m[K: Latitude: 34.0609, Longitude: -118.2344
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:04:10] [01;31m[KGPS[m[K: Latitude: 34.0607, Longitude: -118.2345
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:05:10] [01;31m[KGPS[m[K: Latitude: 34.0605, Longitude: -118.2346
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:06:10] [01;31m[KGPS[m[K: Latitude: 34.0604, Longitude: -118.2350
+[35m[Klogs/n234ij_telemetry.log[m[K[36m[K:[m[K[2024-06-26 15:07:10] [01;31m[KGPS[m[K: Latitude: 34.0599, Longitude: -118.2355
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ grep -r GPS logs* | touch  gps_summary.txt
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim gps-[K)[K_summart.tx[K[K[K[Ky.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"gps_summary.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                [3;1H~                                                                                [4;1H~                                                                                [5;1H~                                                                                [6;1H~                                                                                [7;1H~                                                                                [8;1H~                                                                                [9;1H~                                                                                [10;1H~                                                                                [11;1H~                                                                                [12;1H~                                                                                [13;1H~                                                                                [14;1H~                                                                                [15;1H~                                                                                [16;1H~                                                                                [17;1H~                                                                                [18;1H~                                                                                [19;1H~                                                                                [20;1H~                                                                                [21;1H~                                                                                [22;1H~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [36;1H~                                                                                [37;1H~                                                                                [38;1H~                                                                                [39;1H~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54H:[1;1H[48;1H[K[48;1H:[?2004h[?25h1[?25l[48;2H[K[48;2H[?25hq[?25l[?2004l[23;2t[23;1t[48;1H[K[48;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim gps_summary.txtgrep -r GPS logs* | touch gps_summary.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgp[1Ps_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgps[1P_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgps_[1Psummary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgps_s[1Pummary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgps_su[1Pmmary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgps_sum[C[1Pary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+bash: gps_summary.txt: command not found
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mfinal_logs.tgz[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ lsgrep -r GPS logs* | gps_summary.txt[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat -r GPS ;[Klogs* | grep gp s_si[Kummart.txt
+cat: invalid option -- 'r'
+Try 'cat --help' for more information.
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat -r GPS logs* | grep gps_summart.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat -r GPS logs* | grep gps_summart.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C GPS logs* | grep gps_[1Psummart.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C GPS logs* | grep gps_s[1Pummart.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[CGPS logs* | grep gps_su[1Pmmart.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C
+
+cat: GPS: No such file or directory
+cat: logs: Is a directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls -l GPS
+ls: cannot access 'GPS': No such file or directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat lot[Kgs/*/.log | grep GPS  [K> gps_summary.txt
+cat: 'logs/*/.log': No such file or directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mfinal_logs.tgz[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat logs
+cat: logs: Is a directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat logs/*.log | grep GPS  >gps_summary.txt
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;34mconfigs[0m  [01;31mfinal_logs.tgz[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim Gps[K[K[Kgps_summary.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"gps_summary.txt" [dos] 350L, 23800C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[106m[[m2024-06-26 14:33:10[106m][m GPS: Latitude: 34.0524, Longitude: -118.2435
+[2024-06-26 14:34:10] GPS: Latitude: 34.0526, Longitude: -118.2433
+[2024-06-26 14:35:10] GPS: Latitude: 34.0528, Longitude: -118.2430
+[2024-06-26 14:36:10] GPS: Latitude: 34.0531, Longitude: -118.2426
+[2024-06-26 14:37:10] GPS: Latitude: 34.0533, Longitude: -118.2424
+[2024-06-26 14:38:10] GPS: Latitude: 34.0537, Longitude: -118.2423
+[2024-06-26 14:39:10] GPS: Latitude: 34.0542, Longitude: -118.2420
+[2024-06-26 14:40:10] GPS: Latitude: 34.0544, Longitude: -118.2419
+[2024-06-26 14:41:10] GPS: Latitude: 34.0546, Longitude: -118.2417
+[2024-06-26 14:42:10] GPS: Latitude: 34.0548, Longitude: -118.2413
+[2024-06-26 14:43:10] GPS: Latitude: 34.0552, Longitude: -118.2410
+[2024-06-26 14:44:10] GPS: Latitude: 34.0554, Longitude: -118.2406
+[2024-06-26 14:45:10] GPS: Latitude: 34.0558, Longitude: -118.2405
+[2024-06-26 14:46:10] GPS: Latitude: 34.0563, Longitude: -118.2401
+[2024-06-26 14:47:10] GPS: Latitude: 34.0567, Longitude: -118.2399
+[2024-06-26 14:48:10] GPS: Latitude: 34.0569, Longitude: -118.2398
+[2024-06-26 14:49:10] GPS: Latitude: 34.0572, Longitude: -118.2393
+[2024-06-26 14:50:10] GPS: Latitude: 34.0575, Longitude: -118.2390
+[2024-06-26 14:51:10] GPS: Latitude: 34.0577, Longitude: -118.2388
+[2024-06-26 14:52:10] GPS: Latitude: 34.0580, Longitude: -118.2383
+[2024-06-26 14:53:10] GPS: Latitude: 34.0584, Longitude: -118.2380
+[2024-06-26 14:54:10] GPS: Latitude: 34.0588, Longitude: -118.2376
+[2024-06-26 14:55:10] GPS: Latitude: 34.0592, Longitude: -118.2372
+[2024-06-26 14:56:10] GPS: Latitude: 34.0595, Longitude: -118.2369
+[2024-06-26 14:57:10] GPS: Latitude: 34.0596, Longitude: -118.2366
+[2024-06-26 14:58:10] GPS: Latitude: 34.0601, Longitude: -118.2364
+[2024-06-26 14:59:10] GPS: Latitude: 34.0605, Longitude: -118.2359
+[2024-06-26 15:00:10] GPS: Latitude: 34.0606, Longitude: -118.2357
+[2024-06-26 15:01:10] GPS: Latitude: 34.0610, Longitude: -118.2354
+[2024-06-26 15:02:10] GPS: Latitude: 34.0613, Longitude: -118.2351
+[2024-06-26 15:03:10] GPS: Latitude: 34.0608, Longitude: -118.2353
+[2024-06-26 15:04:10] GPS: Latitude: 34.0604, Longitude: -118.2357
+[2024-06-26 15:05:10] GPS: Latitude: 34.0600, Longitude: -118.2360
+[2024-06-26 15:06:10] GPS: Latitude: 34.0596, Longitude: -118.2363
+[2024-06-26 15:07:10] GPS: Latitude: 34.0592, Longitude: -118.2367
+[2024-06-26 14:33:10] GPS: Latitude: 34.0525, Longitude: -118.2434
+[2024-06-26 14:34:10] GPS: Latitude: 34.0527, Longitude: -118.2432
+[2024-06-26 14:35:10] GPS: Latitude: 34.0529, Longitude: -118.2428
+[2024-06-26 14:36:10] GPS: Latitude: 34.0533, Longitude: -118.2424
+[2024-06-26 14:37:10] GPS: Latitude: 34.0535, Longitude: -118.2419
+[2024-06-26 14:38:10] GPS: Latitude: 34.0536, Longitude: -118.2415
+[2024-06-26 14:39:10] GPS: Latitude: 34.0539, Longitude: -118.2410
+[2024-06-26 14:40:10] GPS: Latitude: 34.0543, Longitude: -118.2408
+[2024-06-26 14:41:10] GPS: Latitude: 34.0548, Longitude: -118.2403
+[2024-06-26 14:42:10] GPS: Latitude: 34.0551, Longitude: -118.2399
+[2024-06-26 14:43:10] GPS: Latitude: 34.0554, Longitude: -118.2396
+[2024-06-26 14:44:10] GPS: Latitude: 34.0558, Longitude: -118.2393[48;64H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54H:[1;1H[48;1H[K[48;1H:[?2004h[?25hq[?25l[48;2H[K[48;2H[?25hwq[?25l[?2004l"gps_summary.txt" [dos] 350L, 23800C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim gps_summary.txtls[Kcat logs/*.log | grep GPS >gps_summary.txt[C[C[1Ps_summary.txt[C[C[1Ps_summary.txt[C[C[1P_summary.txt[Cb_summary.txt[C[Ca_summary.txt[C[C[Ct_summary.txt[C[C[C[Ct_summary.txt[C[C[C[C[Ce_summary.txt[C[C[C[C[C[Cr_summary.txt[C[C[C[C[C[C[Cy_summary.txt[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | grep GPS >b[1Pattery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C | grep GPS >ba[1Pttery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C | grep GPS >bat[C[1Pery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[Cb | grep GPS >ba[Ctery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Ce | grep GPS >battery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ct | grep GPS >battery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C | grep GPS >b[1Pattery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C | grep GPS >ba[1Pttery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[Ca | grep GPS >battery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[Ct | grep GPS >battery_summary.txt[A[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cat: 'logs/*.bat': No such file or directory
+[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cat logs/*.bat | grep GPS >battery_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [7Pvim gps_summary.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat logs/*.log | grep GPS >gps_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvim gps_summary.txtcat logs/*.bat | grep GPS >battery_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [7Pvim gps_summary.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat logs/*.bat | grep GPS >battery_summary.txt[A[0;32m@Timberwolf120 [1;31m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls
+battery_summary.txt  [0m[01;34mconfigs[0m  [01;31mfinal_logs.tgz[0m  gps_summary.txt  [01;34mlogs[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ vim battery_summary.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;48r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[48;1H"battery_summary.txt" 0L, 0C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                [3;1H~                                                                                [4;1H~                                                                                [5;1H~                                                                                [6;1H~                                                                                [7;1H~                                                                                [8;1H~                                                                                [9;1H~                                                                                [10;1H~                                                                                [11;1H~                                                                                [12;1H~                                                                                [13;1H~                                                                                [14;1H~                                                                                [15;1H~                                                                                [16;1H~                                                                                [17;1H~                                                                                [18;1H~                                                                                [19;1H~                                                                                [20;1H~                                                                                [21;1H~                                                                                [22;1H~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [36;1H~                                                                                [37;1H~                                                                                [38;1H~                                                                                [39;1H~                                                                                [40;1H~                                                                                [41;1H~                                                                                [42;1H~                                                                                [43;1H~                                                                                [44;1H~                                                                                [45;1H~                                                                                [46;1H~                                                                                [47;1H~                                                                                [m[48;64H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[48;54H/[1;1H[48;55H3[1;1H[48;56Hb[1;1H[48;57H3[1;1H[48;58Hb[1;1H[48;59H/[1;1H[48;60H3[1;1H[48;61Hb[1;1H[48;62H3[1;1H[48;63Hb[1;1H[48;54H          [1;1H[?25h[?25l[48;54H/[1;1H[48;55Hf[1;1H[48;56H8[1;1H[48;57Hf[1;1H[48;58H8[1;1H[48;59H/[1;1H[48;60Hf[1;1H[48;61H8[1;1H[48;62Hf[1;1H[48;63H8[1;1H[48;54H          [1;1H[?25h[?25l[48;54Ht[1;1H[?25h[?25l[48;55Hh[1;1H[48;54H  [1;1H[?25h[?25l[48;54He[1;1H[48;54H [1;1H[?25h[?25l[48;54Hr[1;1H[?25h[?25l[48;55He[1;1H[48;54H  [1;1H[?25h[?25l[48;54H<20>[1;1H[48;54H    [1;1H[?25h[?25l[48;54Hi[1;1H[48;54H [1;1H[48;1H[1m-- INSERT --[m[48;13H[K[48;64H0,1[11CAll[1;1H[?25h[?25lt[48;64H1,2[1;2H[?25h[?25lh[48;66H3[1;3H[?25h[?25le[48;66H4[1;4H[?25h[?25lr[48;66H5[1;5H[?25h[?25le[48;66H6[1;6H[?25h[?25l[48;66H7[1;7H[?25h[?25lw[48;66H8[1;8H[?25h[?25la[48;66H9[1;9H[?25h[?25ls[48;66H10[1;10H[?25h[?25l[48;67H1[1;11H[?25h[?25ln[48;67H2[1;12H[?25h[?25lo[48;67H3[1;13H[?25h[?25l[48;67H4[1;14H[?25h[?25l.[48;67H5[1;15H[?25h[?25lb[48;67H6[1;16H[?25h[?25la[48;67H7[1;17H[?25h[?25lt[48;67H8[1;18H[?25h[?25l[48;67H9[1;19H[?25h[?25lf[48;66H20[1;20H[?25h[?25li[48;67H1[1;21H[?25h[?25ll[48;67H2[1;22H[?25h[?25le[48;67H3[1;23H[?25h[?25ls[48;67H4[1;24H[?25h[?25l[48;67H5[1;25H[?25h[?25li[48;67H6[1;26H[?25h[?25ln[48;67H7[1;27H[?25h[?25lt[48;67H8[1;28H[?25h[?25l[48;67H9[1;29H[?25h[?25l[48;67H8[1;28H[?25h[?25l[1;27H[K[48;67H7[1;27H[?25h[?25l[48;67H8[1;28H[?25h[?25lt[48;67H9[1;29H[?25h[?25lh[48;66H30[1;30H[?25h[?25le[48;67H1[1;31H[?25h[?25l[48;67H2[1;32H[?25h[?25lf[48;67H3[1;33H[?25h[?25lo[48;67H4[1;34H[?25h[?25ll[48;67H5[1;35H[?25h[?25ld[48;67H6[1;36H[?25h[?25le[48;67H7[1;37H[?25h[?25lr[48;67H8[1;38H[?25h[?25l[48;67H9[1;39H[?25h[?25lt[48;66H40[1;40H[?25h[?25lh[48;67H1[1;41H[?25h[?25la[48;67H2[1;42H[?25h[?25lt[48;67H3[1;43H[?25h[?25l[48;67H4[1;44H[?25h[?25li[48;67H5[1;45H[?25h[?25l[48;67H6[1;46H[?25h[?25lw[48;67H7[1;47H[?25h[?25la[48;67H8[1;48H[?25h[?25ls[48;67H9[1;49H[?25h[?25l[48;66H50[1;50H[?25h[?25li[48;67H1[1;51H[?25h[?25ln[48;67H2[1;52H[?25h[?25ls[48;67H3[1;53H[?25h[?25lt[48;67H4[1;54H[?25h[?25lr[48;67H5[1;55H[?25h[?25lu[48;67H6[1;56H[?25h[?25lc[48;67H7[1;57H[?25h[?25l[1;56H[K[48;67H6[1;56H[?25h[?25l[1;55H[K[48;67H5[1;55H[?25h[?25l[1;54H[K[48;67H4[1;54H[?25h[?25lc[48;67H5[1;55H[?25h[?25lu[48;67H6[1;56H[?25h[?25lt[48;67H7[1;57H[?25h[?25le[48;67H8[1;58H[?25h[?25ld[48;67H9[1;59H[?25h[?25l[1;58H[K[48;67H8[1;58H[?25h[?25l[1;57H[K[48;67H7[1;57H[?25h[?25l[1;56H[K[48;67H6[1;56H[?25h[?25l[1;55H[K[48;67H5[1;55H[?25h[?25l[1;54H[K[48;67H4[1;54H[?25h[?25lr[48;67H5[1;55H[?25h[?25lu[48;67H6[1;56H[?25h[?25lc[48;67H7[1;57H[?25h[?25lt[48;67H8[1;58H[?25h[?25le[48;67H9[1;59H[?25h[?25ld[48;66H60[1;60H[?25h[?25l[48;67H1[1;61H[?25h[?25lt[48;67H2[1;62H[?25h[?25lo[48;67H3[1;63H[?25h[?25l[48;67H4[1;64H[?25h[?25ld[48;67H5[1;65H[?25h[?25lo[48;67H6[1;66H[?25h[?25la[48;67H7[1;67H[?25h[?25l[1;66H[K[48;67H6[1;66H[?25h[?25lw[48;67H7[1;67H[?25h[?25ln[48;67H8[1;68H[?25h[?25ll[48;67H9[1;69H[?25h[?25lo[48;66H70[1;70H[?25h[?25la[48;67H1[1;71H[?25h[?25ld[48;67H2[1;72H[?25h[?25l[48;67H3[1;73H[?25h[?25l:[48;67H4[1;74H[?25h[?25l[1;73H[K[48;67H3[1;73H[?25h[48;1H[K[1;72H[?25l[48;54H^[[1;72H[48;54H  [1;73H[48;64H1,72[10CAll[1;72H[?25h[?25l[48;54H:[1;72H[48;54H[K[48;1H:[?2004h[?25hwq[?25l[?2004l"battery_summary.txt" 1L, 73C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[0;32m@Timberwolf120 [0m➜ [1;34m.../Labs/Final/data/aircraft [0;36m([1;31mmain[0;36m) [0m$ cd ../../..
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs [0;36m([1;31mmain[0;36m) [0m$ cd final[K[K[K[K[KFInal[K[K[K[Kinal
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ tar -cvf data
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ tar -cf data.ta r data
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42mdata[0m  [01;31mdata.tar[0m  [01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ tar -tvf data.t ar
+drwxrwxrwx codespace/codespace 0 2024-08-06 15:19 data/
+drwxrwxrwx codespace/codespace 0 2024-08-06 15:57 data/aircraft/
+-rw-rw-rw- codespace/codespace 23800 2024-08-06 15:55 data/aircraft/gps_summary.txt
+-rw-rw-rw- codespace/codespace 10561 2024-07-30 14:36 data/aircraft/final_logs.tgz
+drwxr-xr-x codespace/codespace     0 2024-07-05 17:51 data/aircraft/configs/
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n567kl/
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n567kl/config_1.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n567kl/config_4.ini
+-rw-r--r-- codespace/codespace   799 2024-07-05 16:24 data/aircraft/configs/n567kl/config_2.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n567kl/config_3.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n567kl/config_5.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n223wx/
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n223wx/config_1.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n223wx/config_4.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:26 data/aircraft/configs/n223wx/config_2.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n223wx/config_3.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n223wx/config_5.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n678st/
+-rw-r--r-- codespace/codespace   809 2024-07-05 16:24 data/aircraft/configs/n678st/config_1.ini
+-rw-r--r-- codespace/codespace   819 2024-07-05 16:24 data/aircraft/configs/n678st/config_4.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n678st/config_2.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n678st/config_3.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n678st/config_5.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n101gh/
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n101gh/config_1.ini
+-rw-r--r-- codespace/codespace   816 2024-07-05 16:24 data/aircraft/configs/n101gh/config_4.ini
+-rw-r--r-- codespace/codespace   793 2024-07-05 16:24 data/aircraft/configs/n101gh/config_2.ini
+-rw-r--r-- codespace/codespace   801 2024-07-05 16:24 data/aircraft/configs/n101gh/config_3.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n101gh/config_5.ini
+-rw-r--r-- codespace/codespace   572 2024-07-05 14:43 data/aircraft/configs/n101gh/config_1a.ini
+drwxr-xr-x codespace/codespace     0 2024-07-05 17:54 data/aircraft/configs/n456cd/
+-rw-r--r-- codespace/codespace   802 2024-07-05 16:24 data/aircraft/configs/n456cd/config_1.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n456cd/config_4.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n456cd/config_2.ini
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n456cd/config_3.ini
+-rw-r--r-- codespace/codespace   811 2024-07-05 16:24 data/aircraft/configs/n456cd/config_5.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n789ef/
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n789ef/config_1.ini
+-rw-r--r-- codespace/codespace   800 2024-07-05 16:24 data/aircraft/configs/n789ef/config_4.ini
+-rw-r--r-- codespace/codespace   802 2024-07-05 16:24 data/aircraft/configs/n789ef/config_2.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n789ef/config_3.ini
+-rw-r--r-- codespace/codespace   817 2024-07-05 16:24 data/aircraft/configs/n789ef/config_5.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n890mn/
+-rw-r--r-- codespace/codespace   498 2024-07-05 16:24 data/aircraft/configs/n890mn/config_1.ini
+-rw-r--r-- codespace/codespace   811 2024-07-05 16:24 data/aircraft/configs/n890mn/config_4.ini
+-rw-r--r-- codespace/codespace   808 2024-07-05 16:24 data/aircraft/configs/n890mn/config_2.ini
+-rw-r--r-- codespace/codespace   803 2024-07-05 16:24 data/aircraft/configs/n890mn/config_3.ini
+-rw-r--r-- codespace/codespace   807 2024-07-05 16:24 data/aircraft/configs/n890mn/config_5.ini
+-rw-r--r-- codespace/codespace   287 2024-07-05 17:51 data/aircraft/configs/tailnumbers.txt
+drwxr-xr-x codespace/codespace     0 2024-08-06 15:26 data/aircraft/configs/n123ab/
+-rw-r--r-- codespace/codespace   841 2024-08-06 15:25 data/aircraft/configs/n123ab/config_1.ini
+-rw-r--r-- codespace/codespace   806 2024-08-06 15:26 data/aircraft/configs/n123ab/config_4.ini
+-rw-r--r-- codespace/codespace   803 2024-08-06 15:25 data/aircraft/configs/n123ab/config_2.ini
+-rw-r--r-- codespace/codespace   809 2024-08-06 15:26 data/aircraft/configs/n123ab/config_3.ini
+-rw-r--r-- codespace/codespace   808 2024-08-06 15:26 data/aircraft/configs/n123ab/config_5.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n112op/
+-rw-r--r-- codespace/codespace   814 2024-07-05 16:24 data/aircraft/configs/n112op/config_1.ini
+-rw-r--r-- codespace/codespace   813 2024-07-05 16:24 data/aircraft/configs/n112op/config_4.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n112op/config_2.ini
+-rw-r--r-- codespace/codespace   806 2024-07-05 16:24 data/aircraft/configs/n112op/config_3.ini
+-rw-r--r-- codespace/codespace   815 2024-07-05 16:24 data/aircraft/configs/n112op/config_5.ini
+drwxr-xr-x codespace/codespace     0 2024-07-17 16:58 data/aircraft/configs/n234ij/
+-rw-r--r-- codespace/codespace   799 2024-07-05 16:24 data/aircraft/configs/n234ij/config_1.ini
+-rw-r--r-- codespace/codespace   798 2024-07-05 16:24 data/aircraft/configs/n234ij/config_4.ini
+-rw-r--r-- codespace/codespace   810 2024-07-05 16:24 data/aircraft/configs/n234ij/config_2.ini
+-rw-r--r-- codespace/codespace   805 2024-07-05 16:24 data/aircraft/configs/n234ij/config_3.ini
+-rw-r--r-- codespace/codespace   809 2024-07-05 16:24 data/aircraft/configs/n234ij/config_5.ini
+drwxr-xr-x codespace/codespace     0 2024-07-29 21:59 data/aircraft/logs/
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n223wx_telemetry.log
+-rw-r--r-- codespace/codespace  9800 2024-07-29 22:57 data/aircraft/logs/n112op_telemetry.log
+-rw-r--r-- codespace/codespace  9742 2024-07-29 22:57 data/aircraft/logs/n123ab_telemetry.log
+-rw-r--r-- codespace/codespace  9803 2024-07-29 22:57 data/aircraft/logs/n789ef_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n567kl_telemetry.log
+-rw-r--r-- codespace/codespace  9803 2024-07-29 22:57 data/aircraft/logs/n678st_telemetry.log
+-rw-r--r-- codespace/codespace  9801 2024-07-29 22:57 data/aircraft/logs/n456cd_telemetry.log
+-rw-r--r-- codespace/codespace  9830 2024-07-29 22:57 data/aircraft/logs/n101gh_telemetry.log
+-rw-r--r-- codespace/codespace  9828 2024-07-29 22:57 data/aircraft/logs/n890mn_telemetry.log
+-rw-r--r-- codespace/codespace  9829 2024-07-29 22:57 data/aircraft/logs/n234ij_telemetry.log
+-rw-rw-rw- codespace/codespace    73 2024-08-06 15:57 data/aircraft/battery_summary.txt
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ script baskup.s h[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbac[K[K[Kmkdir backups
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ mv data.tat /ba ckups[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kar /ba ckups
+mv: cannot create regular file '/backups': Permission denied
+[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ mv data.tar /backups[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cback[1Pups[A[0;32m@Timberwolf120 [1;31m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C
+
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42mbackups[0m  [34;42mdata[0m  [01;31mfinal_configs.tgz[0m  final_typescript
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ cd backups
+[0;32m@Timberwolf120 [0m➜ [1;34m.../CIS190-codespace/Labs/Final/backups [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[01;31mdata.tar[0m
+[0;32m@Timberwolf120 [0m➜ [1;34m.../CIS190-codespace/Labs/Final/backups [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@Timberwolf120 [0m➜ [1;34m/workspaces/CIS190-codespace/Labs/Final [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-08-06 16:02:19+00:00 [COMMAND_EXIT_CODE="0"]
